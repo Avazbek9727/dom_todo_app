@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h1>Todo App</h1>
+        <div class="infos">
+            <h2>username:</h2>
+            <input type="text" class="input_user">
+            <h2>tasks:</h2>
+            <input type="text" class="input_task">
+            <h2>description:</h2>
+            <input type="text" class="input_description">
+        </div>
+
+        <button class="btn">Save</button>
+
+        <div class="out">
+            <div>
+                <table>
+                    <tr>
+                        <th>Username</th>
+                        <th>Taks</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td class="td_user"></td>
+                        <td class="td_task"></td>
+                        <td class="td_description"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
